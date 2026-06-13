@@ -18,6 +18,10 @@ dsa/
 │   ├── merging_two_array.py
 │   ├── quick_sort.py
 │   └── selection_sort.py
+│   └── largest_element.py
+│   └── second_largest.py
+│  
+│  
 │
 ├── hashing/
 │   ├── character_hashing.py
@@ -120,10 +124,10 @@ python array/quick_sort.py
 * [x] Hashing
 * [x] Recursion
 * [x] Sorting
+* [ ] Searching
 
 ### Coming Next
 
-* [ ] Binary Search
 * [ ] Linked Lists
 * [ ] Stacks & Queues
 * [ ] Trees
