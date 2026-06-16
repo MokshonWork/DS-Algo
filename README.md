@@ -20,6 +20,9 @@ dsa/
 │   └── selection_sort.py
 │   └── largest_element.py
 │   └── second_largest.py
+│   └── sort_or_not.py
+│   └── uniq_array_count.py
+│   └── Rotate_arr_by_1_place.py
 │  
 │  
 │
