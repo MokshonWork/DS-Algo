@@ -1,14 +1,29 @@
-nums1 = [1,1,1,2,4,6,7]
-nums2 = [1,2,3,6,7,8,9,10]
+nums1 = [1, 1, 1, 2, 4, 6, 7]
+nums2 = [1, 2, 3, 6, 7, 8, 9, 10]
 
-n,m = len(nums1),len(nums2)
-i = 0, j=0
-result =[]
-while i <n and j<m:
+n, m = len(nums1), len(nums2)
+i, j = 0, 0  
+result = []
+
+while i < n and j < m:
     if nums1[i] <= nums2[j]:
-        if result[-1]!= nums1[i] or len(result) == 0:
+        if len(result) == 0 or result[-1] != nums1[i]:
             result.append(nums1[i])
-        i+=1
+        i += 1
     else:
-        if len(result) > ==0  and res
+        # Completed the else block for nums2
+        if len(result) == 0 or result[-1] != nums2[j]:
+            result.append(nums2[j])
+        j += 1
 
+while i < n:
+    if len(result) == 0 or result[-1] != nums1[i]:
+        result.append(nums1[i])
+    i += 1
+
+while j < m:
+    if len(result) == 0 or result[-1] != nums2[j]:
+        result.append(nums2[j])
+    j += 1
+
+print(result)
