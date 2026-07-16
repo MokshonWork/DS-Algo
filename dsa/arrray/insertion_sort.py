@@ -10,3 +10,4 @@ for i in range(1,n):
     nums[j+1] =key
 
 print(nums)
+ 
